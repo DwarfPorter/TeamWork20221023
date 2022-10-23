@@ -2,6 +2,8 @@ package com.example.team20221023
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -9,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val text = findViewById<TextView>(R.id.text)
-        text.text = "Привет!"
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener {
+            Toast.makeText(this,  "Message", Toast.LENGTH_SHORT).show()
+        }
     }
 }
