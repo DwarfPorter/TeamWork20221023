@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.TextView
 
+// Коммент
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
