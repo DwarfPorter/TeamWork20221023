@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.TextView
 
+// для пулреквеста
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
